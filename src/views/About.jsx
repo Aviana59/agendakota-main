@@ -219,24 +219,22 @@ function About() {
                     </div>
                 </Container>
             </Section>
-            <Section>
-                <div className="flex flex-col gap-4 md:gap-6 px-2 py-4  md:p-8 mt-44">
+                <div className="flex flex-col gap-4 md:gap-6 px-2 py-4  md:p-8 mt-44 bg-[#F9FAFB]">
                     <div className="md:w-2/3 mx-auto">
                         <h1 className="text-3xl text-center font-semibold">Scale Up Bisnismu Sekarang</h1>
                     </div>
                     <div className="md:w-3/5  mx-auto">
-                        <p className="text-center text-lg md:text-xl text-slate-600">Kami hadir untuk membantu event organizer, hotel dan penyedia layanan klinik & wellness tumbuh dengan efisien melalui sistem manajemen pemesanan dan tiket yang terpadu.</p>
+                        <p className="text-center text-lg md:text-xl text-slate-600">Join dengan 150+ Bisnis yang Telah Bertumbuh</p>
                     </div>
                     <div className="md:w-3/5 mx-auto flex flex-col md:flex-row w-full md:items-center md:justify-center gap-4">
-                        <button className="py-4 px-7 font-semibold bg-primary text-white rounded-md w-full md:w-fit">
-                            Registrasi Sekarang
-                        </button>
                         <button className="py-4 px-7 font-semibold ring-1 ring-slate-300 rounded-md flex gap-2 items-center justify-center text-center w-full md:w-fit">
                             Fitur Agendakota
                         </button>
+                        <button className="py-4 px-7 font-semibold bg-primary text-white rounded-md w-full md:w-fit">
+                            Registrasi Sekarang
+                        </button>
                     </div>
                 </div>
-            </Section>
         </>
     )
 }
